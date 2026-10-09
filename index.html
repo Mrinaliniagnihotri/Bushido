@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><title>Bushido Technology</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base { html, body { margin: 0; padding: 0; } body { overscroll-behavior: none; } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script><script id="tailwind-config">tailwind.config = {darkMode: "class", theme: {extend: {colors: {
+  background: "#0A0B0E",
+  "surface-card": "#12141A",
+  "surface-card-subtle": "#161922",
+  "surface-border": "#232732",
+  "surface-border-subtle": "#1E222B",
+  "accent-yellow": "#FFE500",
+  "accent-yellow-hover": "#E6CE00",
+  "text-heading": "#FFFFFF",
+  "text-body": "#94A3B8",
+  "text-muted": "#64748B"
+}, fontFamily: {
+  "display-hero": ["Inter", "sans-serif"],
+  "headline-lg": ["Inter", "sans-serif"],
+  "headline-md": ["Inter", "sans-serif"],
+  "headline-sm": ["Inter", "sans-serif"],
+  "body-lg": ["Inter", "sans-serif"],
+  "body-md": ["Inter", "sans-serif"],
+  "label-md": ["Inter", "sans-serif"],
+  "label-sm": ["Inter", "sans-serif"],
+  "code-sm": ["JetBrains Mono", "monospace"]
+}, fontSize: {
+  "display-hero": ["56px", {lineHeight: "64px", letterSpacing: "-0.03em", fontWeight: "700"}],
+  "display-hero-mobile": ["36px", {lineHeight: "42px", letterSpacing: "-0.025em", fontWeight: "700"}],
+  "headline-lg": ["36px", {lineHeight: "44px", letterSpacing: "-0.02em", fontWeight: "600"}],
+  "headline-md": ["24px", {lineHeight: "32px", letterSpacing: "-0.015em", fontWeight: "600"}],
+  "headline-sm": ["18px", {lineHeight: "24px", letterSpacing: "-0.01em", fontWeight: "600"}],
+  "body-lg": ["16px", {lineHeight: "26px", letterSpacing: "-0.005em", fontWeight: "400"}],
+  "body-md": ["14px", {lineHeight: "22px", letterSpacing: "0em", fontWeight: "400"}],
+  "label-md": ["13px", {lineHeight: "18px", letterSpacing: "0.01em", fontWeight: "500"}],
+  "label-sm": ["11px", {lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "600"}],
+  "code-sm": ["12px", {lineHeight: "16px", letterSpacing: "0em", fontWeight: "500"}]
+}}}};</script></head><body class="bg-[#0A0B0E] font-body-md text-body-md text-slate-400 antialiased selection:bg-[#FFE500] selection:text-black"><header class="fixed top-0 inset-x-0 z-50 bg-[#0A0B0E]/85 backdrop-blur-xl border-b border-[#232732]"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-4"><img alt="Minimalist sleek geometric logo for Bushido Technology, stylized Japanese origami warrior/shield katana crest, gold yellow and silver charcoal on black. Brand logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WD4OU21Y6881fxNP6R9ElbDHPE9uSzgLY5riBg39Ly6sriWKegaAzErNo6y6DPC3ewWqHlOQdHT4dnB7emJj0Z1g4ojtMP19k-wBiS38sjArWIk5xLYN0I1D9e7LqtOunhFtdiAZxf2H655K6t_94FxvPR0sXy-IJTJbT4sRmj1CPS3E74b-mf3CQ-papERaEevWMvHpCNWU_WIsATj1N3LNupXED--eMLzadMdtrpRveUXAVtyKH3nUE"/><a class="flex items-center gap-2 group" data-path="home" href="#"><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-white group-hover:text-slate-200 transition-colors">BUSHIDO</span><span class="px-1.5 py-0.5 rounded bg-[#181B22] border border-[#232732] text-slate-300 font-label-sm text-label-sm uppercase tracking-wider">TECH</span></a></div><nav class="hidden md:flex items-center gap-8"><a class="font-label-md text-label-md text-slate-400 hover:text-white transition-colors" data-path="about" href="#">About</a><a class="font-label-md text-label-md text-slate-400 hover:text-white transition-colors" data-path="services" href="#">Services</a><a class="font-label-md text-label-md text-slate-400 hover:text-white transition-colors" data-path="the-bushido-code" href="#">The Bushido Code</a><a class="font-label-md text-label-md text-slate-400 hover:text-white transition-colors" data-path="clients" href="#">Clients</a><a class="font-label-md text-label-md text-slate-400 hover:text-white transition-colors" data-path="infrastructure" href="#">Infrastructure</a></nav><div class="flex items-center gap-4"><a class="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#FFE500] text-black font-label-md text-label-md font-semibold hover:bg-[#E6CE00] transition-all shadow-[0_0_24px_rgba(255,229,0,0.2)] hover:shadow-[0_0_30px_rgba(255,229,0,0.35)]" data-path="schedule-consultation" href="#">Schedule Consultation</a><div class="w-8 h-8 rounded-full bg-[#181B22] border border-[#232732] flex items-center justify-center"><span class="material-symbols-outlined text-slate-300 text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-[#0A0B0E]"><div class="flex flex-col w-full">
+<!-- Top Ambient Glow Field (Extremely Subtle, Neutral Depth) -->
+<div class="relative w-full overflow-hidden">
+<!-- 1. Hero Section -->
+<section class="relative max-w-7xl mx-auto px-6 lg:px-12 pt-14 pb-20 lg:pt-20 lg:pb-24">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Hero Left Column -->
+<div class="lg:col-span-7 flex flex-col items-start space-y-6">
+<div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-[#12141A] border border-[#232732]">
+<span class="w-2 h-2 rounded-full bg-[#FFE500] animate-pulse"></span>
+<span class="font-code-sm text-code-sm text-slate-300 uppercase tracking-wider font-semibold">East Africa Enterprise Infrastructure</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-white tracking-tight leading-[1.08] max-w-2xl">
+            Transforming enterprise IT with <span class="text-[#FFE500]">precision</span>, integrity, and speed.
+          </h1>
+<p class="font-body-lg text-body-lg text-slate-400 max-w-xl leading-relaxed">
+            Our objective is to assist in transforming businesses with efficient digital IT solutions that satisfy the business objectives of today and unlock the technical opportunities of tomorrow. We optimize returns on IT investments and fulfill customer needs at optimal costs with a transparent engagement model allowing you to stay focused on your core business.
+          </p>
+<div class="flex flex-wrap items-center gap-4 pt-2">
+<a class="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl bg-[#FFE500] text-black font-label-md text-label-md font-bold transition-all shadow-[0_4px_24px_rgba(255,229,0,0.22)] hover:bg-[#E6CE00] hover:shadow-[0_4px_30px_rgba(255,229,0,0.38)]" data-path="schedule-consultation" href="#">
+<span>Get in Touch</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl bg-[#12141A] text-slate-200 border border-[#232732] hover:bg-[#181B22] hover:text-white transition-colors font-label-md text-label-md" href="#capabilities">
+<span class="material-symbols-outlined text-slate-400 text-[18px]">shield</span>
+<span>Explore Capabilities</span>
+</a>
+</div>
+<!-- Micro Location Meta -->
+<div class="pt-4 flex items-center gap-3 text-slate-500 font-code-sm text-code-sm">
+<span class="material-symbols-outlined text-[#FFE500] text-[16px]">verified</span>
+<span>Nairobi HQ • Delta Corner Tower • Westlands</span>
+</div>
+</div>
+<!-- Hero Right Column: Interactive Visual Graphic (User Image 1) -->
+<div class="lg:col-span-5 relative w-full flex justify-center">
+<div class="relative w-full max-w-md lg:max-w-none rounded-2xl bg-[#12141A] border border-[#232732] p-4 shadow-2xl overflow-hidden group">
+<!-- Telemetry Display Image 1: Minimalist orbital radar uptime -->
+<img alt="Core uptime radar visualization indicating 99.99% operational continuity across East Africa fabric" class="w-full h-auto object-contain rounded-xl transition-transform duration-500 group-hover:scale-[1.01]" src="https://lh3.googleusercontent.com/aida/AEtjO1Vhpk1UFNEAB0ZSNBIODYpPwluJyuXKJYDo7HDIA8dhVt8pnCtcuV9Fa9NucPWxfd0fqFqOE6KmSWUWQiNo5oaTQJqt2CYam50UVgUCeh8yila9qr3PZz-KCVeiMalwr3gI1K6ZVY1b89Pny5jiBzdNq4dGM0_Zx2Ef_MSj7h5tziPXgLauGFp2uoCpEB2GFGXVDypttiW66pDEyzhYMdwbzBnsb_5xvizVylVnPjsF93Qn2Lfy4VdAVdw"/>
+<!-- Floating Apple-style glass telemetry badges -->
+<div class="mt-3 grid grid-cols-2 gap-2">
+<div class="p-3 rounded-lg bg-[#0A0B0E]/80 border border-[#232732] backdrop-blur-md flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-slate-400">Latency to IXP</span>
+<span class="font-code-sm text-code-sm text-[#FFE500] font-semibold">&lt; 1.8ms</span>
+</div>
+<div class="p-3 rounded-lg bg-[#0A0B0E]/80 border border-[#232732] backdrop-blur-md flex items-center justify-between">
+<span class="font-code-sm text-code-sm text-slate-400">Defense Node</span>
+<span class="flex items-center gap-1.5 font-code-sm text-code-sm text-slate-200">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
+                  Armored
+                </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Impact Metrics Horizontal Strip -->
+<div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-4 lg:gap-6">
+<div class="p-6 rounded-xl bg-[#12141A] border border-[#232732] flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-[#181B22] border border-[#232732] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#FFE500] text-[22px]">savings</span>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-white font-bold tracking-tight">Millions Saved</div>
+<div class="font-body-md text-body-md text-slate-400 mt-1">In Kenyan shillings through process hardening &amp; waste elimination.</div>
+</div>
+</div>
+<div class="p-6 rounded-xl bg-[#12141A] border border-[#232732] flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-[#181B22] border border-[#232732] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#FFE500] text-[22px]">verified_user</span>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-white font-bold tracking-tight">100% Fixed Pricing</div>
+<div class="font-body-md text-body-md text-slate-400 mt-1">Transparent modular engagement with zero hidden IT retainers.</div>
+</div>
+</div>
+<div class="p-6 rounded-xl bg-[#12141A] border border-[#232732] flex items-start gap-4">
+<div class="w-10 h-10 rounded-lg bg-[#181B22] border border-[#232732] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[#FFE500] text-[22px]">hub</span>
+</div>
+<div>
+<div class="font-headline-md text-headline-md text-white font-bold tracking-tight">Nairobi Kenya HQ</div>
+<div class="font-body-md text-body-md text-slate-400 mt-1">Boots on the ground delivering regional defense and compute reliability.</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- 2. Trusted Partners / Clients Section -->
+<section class="w-full bg-[#0E1015] border-y border-[#232732] py-20">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 text-center space-y-4">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#12141A] border border-[#232732] text-slate-300 font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+<span class="material-symbols-outlined text-[14px] text-slate-400">corporate_fare</span>
+        TRUSTED PARTNERS
+      </div>
+<h2 class="font-headline-lg text-headline-lg text-white tracking-tight">
+        Trusted by Industry Leaders Across East Africa
+      </h2>
+<p class="font-body-lg text-body-lg text-slate-400 max-w-2xl mx-auto">
+        Powering tier-one financial software vendors, insurance enterprises, industrial champions, and dynamic digital scaleups.
+      </p>
+<!-- Client Logo Wall Card -->
+<div class="pt-8 max-w-4xl mx-auto">
+<div class="bg-[#12141A] border border-[#232732] rounded-2xl p-6 md:p-10 shadow-2xl flex items-center justify-center overflow-hidden">
+<div class="bg-white rounded-xl p-4 md:p-6 w-full flex items-center justify-center">
+<img alt="Leading client logos including Craft Silicon, JW Seagon, SoftNet Business Systems, Loop Pet Food, Mr. Green Africa, Pacific Stationers, and ARMCO" class="w-full max-h-56 object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBFxjOjCQhEmgvdHJa-K8iqKZgu80zRUpiEGNdhOj20ACXd65Mv8CuKnvB0GX_5q4Ezlor7i3NWSz_noNYa-dp-nO6TjSStQ-td1_0I8mqNxNfIST0KSjbHx9kWaP5fLRJebMOuyeMaNlahPN_QZTK3oyG5YsgCqBkljUlS-e3aeiC5PUWVLz_7KwENz2bjKxcxHHCYt0r4uHFF8JkgdyLyhcvqdX-uxsjwQL3kGSOv-kzXZUr6OFGmm1xd6ykAEz5o3Q"/>
+</div>
+</div>
+</div>
+<div class="pt-6 flex items-center justify-center gap-8 font-code-sm text-code-sm text-slate-400">
+<span class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-[#FFE500]"></span>
+          Banking &amp; Fintech
+        </span>
+<span class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-[#FFE500]"></span>
+          Insurance Underwriting
+        </span>
+<span class="flex items-center gap-2">
+<span class="w-1.5 h-1.5 rounded-full bg-[#FFE500]"></span>
+          Industrial &amp; Supply Chain
+        </span>
+</div>
+</div>
+</section>
+<!-- 3. The Bushido Code in Business -->
+<section class="w-full py-24 bg-[#0A0B0E] relative overflow-hidden" id="the-code">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 space-y-16">
+<!-- Section Header -->
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8">
+<div class="space-y-3 max-w-2xl">
+<div class="inline-flex items-center gap-2 font-code-sm text-code-sm text-slate-400 uppercase tracking-wider font-semibold">
+<span class="text-[#FFE500]">//</span><span>01 · PHILOSOPHY</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-white tracking-tight">
+            The Bushido Code in Modern Business
+          </h2>
+<p class="font-body-lg text-body-lg text-slate-400">
+            The ancient samurai disciplines adapted into modern high-reliability enterprise environments. Unyielding discipline meets modern enterprise resilience.
+          </p>
+</div>
+<div class="hidden lg:flex items-center gap-4 text-slate-300 font-code-sm text-code-sm bg-[#12141A] border border-[#232732] px-4 py-2.5 rounded-xl">
+<span class="text-[#FFE500] font-bold">武士道</span>
+<span>Disciplined Engineering Ethics</span>
+</div>
+</div>
+<!-- Bushido Vector Graphic Overview (User Image 2) -->
+<div class="w-full max-w-4xl mx-auto rounded-2xl bg-[#12141A] border border-[#232732] p-6 shadow-xl flex justify-center items-center">
+<img alt="The Three Bushido Principles diagram showing GI (Integrity / 01), MAKOTO (Honesty / 02), and CHU (Loyalty / 03) in minimalist amber on obsidian" class="w-full max-h-72 object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VP1qdnjBoL_vg5tu3D96PT41D-IKeIlc6HMu0GU-SXXktNMw0ddWKX2bFlLFZcsYJPJbfgPC2rqPckq0NntNncojjIb_6nYFNdhSUuTpNCTFYH-EBxsQ5Z_x1bj6wY36WRdARdj4Wo8vSW04OxR30R4TGNy0zhcETry-dcJa07y3PcTOg04a-TvxjgqYPm92Znk0UGhLN1BmZdjFRF9mmMHdBkJhjN660j48Fn3PSihZj3-V8j0_CofRY"/>
+</div>
+<!-- 3-Column Philosophical Pillar Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Pillar 01: GI -->
+<div class="p-8 rounded-2xl bg-[#12141A] border border-[#232732] flex flex-col justify-between hover:border-slate-600 transition-all group shadow-sm">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm font-bold text-slate-400 tracking-wider">PILLAR 01</span>
+<span class="text-2xl font-bold text-slate-600 group-hover:text-slate-400 transition-colors">義</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white transition-colors">
+              Integrity <span class="text-slate-500 font-normal">(Gi)</span>
+</h3>
+<p class="font-body-md text-body-md text-slate-400 leading-relaxed">
+              Without integrity businesses start off on a shaky foundation and eventually show their true colors. It is of the upmost importance to represent the correct conduct of business at all times.
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-2 font-code-sm text-code-sm text-slate-400">
+<span class="material-symbols-outlined text-[16px] text-[#FFE500]">shield</span>
+<span>Zero compromise on architecture</span>
+</div>
+</div>
+<!-- Pillar 02: MAKOTO -->
+<div class="p-8 rounded-2xl bg-[#12141A] border border-[#232732] flex flex-col justify-between hover:border-slate-600 transition-all group shadow-sm">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm font-bold text-slate-400 tracking-wider">PILLAR 02</span>
+<span class="text-2xl font-bold text-slate-600 group-hover:text-slate-400 transition-colors">誠</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white transition-colors">
+              Honesty <span class="text-slate-500 font-normal">(Makoto)</span>
+</h3>
+<p class="font-body-md text-body-md text-slate-400 leading-relaxed">
+              Being honest speaks for itself, honest businesses will always create a stronger bond with employees, clients and partners. Transparent scoping with exact deliverable definitions.
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-2 font-code-sm text-code-sm text-slate-400">
+<span class="material-symbols-outlined text-[16px] text-[#FFE500]">balance</span>
+<span>Transparent audits &amp; reports</span>
+</div>
+</div>
+<!-- Pillar 03: CHU -->
+<div class="p-8 rounded-2xl bg-[#12141A] border border-[#232732] flex flex-col justify-between hover:border-slate-600 transition-all group shadow-sm">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="font-code-sm text-code-sm font-bold text-slate-400 tracking-wider">PILLAR 03</span>
+<span class="text-2xl font-bold text-slate-600 group-hover:text-slate-400 transition-colors">忠</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white transition-colors">
+              Loyalty <span class="text-slate-500 font-normal">(Chu)</span>
+</h3>
+<p class="font-body-md text-body-md text-slate-400 leading-relaxed">
+              Following the above principles will automatically create a sense of loyalty with everyone. Who wouldn't show loyalty to companies with integrity and honesty?
+            </p>
+</div>
+<div class="pt-6 flex items-center gap-2 font-code-sm text-code-sm text-slate-400">
+<span class="material-symbols-outlined text-[16px] text-[#FFE500]">handshake</span>
+<span>Long-term strategic partnership</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Core Capabilities & Services Bento Grid -->
+<section class="w-full py-24 bg-[#0E1015] border-y border-[#232732] relative" id="capabilities">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 space-y-16">
+<!-- Section Header -->
+<div class="space-y-3">
+<div class="inline-flex items-center gap-2 font-code-sm text-code-sm text-slate-400 uppercase tracking-wider font-semibold">
+<span class="text-[#FFE500]">//</span><span>02 · SPECIALIZED CAPABILITIES</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-white tracking-tight">
+          Engineered for Corporate Resilience
+        </h2>
+<p class="font-body-lg text-body-lg text-slate-400 max-w-2xl">
+          End-to-end technical implementations, security benchmarking, and process optimizations tailored to the realities of enterprise operations.
+        </p>
+</div>
+<!-- Bento Grid Layer 1: Flagship Hardening Card & Process Output Card -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+<!-- Large Bento Item: Security & Infrastructure Hardening (User Image 3) -->
+<div class="lg:col-span-7 rounded-3xl bg-[#12141A] border border-[#232732] p-8 lg:p-10 flex flex-col justify-between shadow-xl relative overflow-hidden">
+<div class="space-y-6 z-10">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-[#181B22] border border-[#232732] text-slate-300 font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                ZERO TRUST ARCHITECTURE
+              </span>
+<span class="font-code-sm text-code-sm text-slate-400">ISO/IEC 27001 ALIGNED</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-white tracking-tight">
+              Security &amp; Infrastructure Hardening
+            </h3>
+<p class="font-body-lg text-body-lg text-slate-400 max-w-xl">
+              Be a tough nut to crack by mitigating infiltration and exfiltration with unique end-to-end implementations gating entry and exit points.
+            </p>
+<!-- Vector Graphic: Secure Latency Node (User Image 3) -->
+<div class="w-full py-4 flex justify-center">
+<img alt="Security hardening schematic with encrypted perimeter gating entry and egress points, showing latency and secure state" class="w-full max-w-md h-auto object-contain rounded-xl" src="https://lh3.googleusercontent.com/aida/AEtjO1UiXqc01zkazG9JCrgpwe1MWJ_zrI5dQyXSERjAI6yvKGKBd1DItVkJgo8DjUw2angMgA8-AXKq5nTWEA02AClJ9IvROrSGRDtdDy8n8LHhMOoSR2-z_v7HUWnFZK6egXzh4lALKuUFrASOt0cggieVpKySCGj8ObDa-wiNFQaaH587-cOTKvJHw4y2BrHMaOt5bQnhanhgTmFa62pum0JDHxlfpnXXdMJk8ZBBRLhThxSH41C05t3LUA"/>
+</div>
+<!-- Two Sub-Capabilities Details -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+<div class="p-4 rounded-xl bg-[#0A0B0E] border border-[#232732]">
+<div class="flex items-center gap-2 text-white font-headline-sm text-headline-sm font-semibold mb-1">
+<span class="material-symbols-outlined text-[#FFE500] text-[20px]">security</span>
+                  IT Security Audits
+                </div>
+<p class="font-body-md text-body-md text-slate-400">Benchmark your infrastructure against best practices and industry standard compliance.</p>
+</div>
+<div class="p-4 rounded-xl bg-[#0A0B0E] border border-[#232732]">
+<div class="flex items-center gap-2 text-white font-headline-sm text-headline-sm font-semibold mb-1">
+<span class="material-symbols-outlined text-[#FFE500] text-[20px]">lock_reset</span>
+                  Entry &amp; Egress Mitigation
+                </div>
+<p class="font-body-md text-body-md text-slate-400">Unique end-to-end implementations gating all ingress and egress network flows.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Bento Stack: Process Optimization & Applications -->
+<div class="lg:col-span-5 flex flex-col gap-8">
+<!-- Process Optimization Card (User Image 4: +84% Output curve) -->
+<div class="rounded-3xl bg-[#12141A] border border-[#232732] p-8 flex flex-col justify-between shadow-xl">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-[#181B22] border border-[#232732] text-slate-300 font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                  EFFICIENCY ENGINE
+                </span>
+<span class="font-code-sm text-code-sm text-[#FFE500] font-bold">+84% GAIN</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white font-bold">
+                Process Optimization
+              </h3>
+<p class="font-body-md text-body-md text-slate-400">
+                Increase your process outputs and reduce time wastage. We review and optimize both physical and digital processes to align with your business goals.
+              </p>
+</div>
+<div class="py-4">
+<img alt="Telemetry graph illustrating 84 percent increase in operational process output with streamlined trajectory" class="w-full h-auto object-contain rounded-xl" src="https://lh3.googleusercontent.com/aida/AEtjO1WTaCNKnQ_TaNa8UUvgfdEsY1WVQvAiDYSZaPZmwIYcPBsJmuNPOQAE_u6a58wgnJIPXCpDY2Rl2fb_3ZVjtW5Eh6FhRD4QPHFJ2EKnMDUBAwDonoEziphXSOtGBJ79regJ84O6loc9xnR3WWFsUFPtoIMIfBV6Abt8x3imWLvHTUl6IkIaeQLZF6uG9UwYIKu9ks7Q9mr32R9uUPPhi78QrGafBcaSPk1eD1d8sHk4GhFE0O604QdpXA"/>
+</div>
+<div class="flex items-center justify-between pt-2 text-slate-400 font-code-sm text-code-sm">
+<span>Time-to-Execution</span>
+<span class="text-white font-semibold">Drastically Reduced</span>
+</div>
+</div>
+<!-- Custom Mini Applications Card -->
+<div class="rounded-3xl bg-[#12141A] border border-[#232732] p-8 flex flex-col justify-between shadow-xl">
+<div class="space-y-4">
+<div class="flex items-center justify-between">
+<span class="px-3 py-1 rounded-full bg-[#181B22] border border-[#232732] text-slate-300 font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+                  AUTOMATION SUITE
+                </span>
+<span class="material-symbols-outlined text-slate-400 text-[20px]">smart_toy</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white font-bold">
+                Custom Mini Applications
+              </h3>
+<p class="font-body-md text-body-md text-slate-400">
+                Make life easier and get done quicker by automating manual tasks. Custom built micro and medium-size software kits automating repetitive processes.
+              </p>
+</div>
+<div class="py-4">
+<img alt="Minimalist Apple-style diagram for Custom Mini Applications and automation showing streamlined microservice workflow, task pipeline, and speed badge" class="w-full max-h-52 object-contain rounded-xl" src="https://lh3.googleusercontent.com/aida/AEtjO1XVwdC1NOu72VhwtlKlWb0yxDLjfLUbI0MZXgXg3znHXiKezbqyy1DY4scZCiKw61NNhdisQloSOj8tvoxqLxAK5ua0aARxo67dNAR9314VIy4GI26-t0kmdW56eo8uEYbF_QCDmNo4yeETIO--my-3etU10ZAjJJI1mmhNXwxjq8Tpx0i7P2tkJMVe2yF6fpdW1782NoEoKCO6WO_3jfgpgw1FniHcXYrI4-_EWiwrizEOuRfJ0U1yFGE"/>
+</div>
+<div class="flex items-center justify-between pt-2 text-slate-400 font-code-sm text-code-sm">
+<span>Delivery Architecture</span>
+<span class="text-white font-semibold">Micro-services &amp; Automations</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Bento Grid Layer 2: Complementary Pillars (After Market & Knowledge Empowerment) -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="p-8 lg:p-10 rounded-3xl bg-[#12141A] border border-[#232732] flex items-start gap-6 shadow-xl">
+<div class="w-12 h-12 rounded-2xl bg-[#181B22] border border-[#232732] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-slate-300 text-[26px]">cycle</span>
+</div>
+<div class="space-y-3">
+<span class="font-code-sm text-code-sm text-slate-400 font-bold uppercase tracking-wider">CONTINUOUS VALUE</span>
+<h3 class="font-headline-md text-headline-md text-white font-bold">
+              After Market Services
+            </h3>
+<p class="font-body-md text-body-md text-slate-400 leading-relaxed">
+              The journey does not end after implementation. We provide tailored value additions based on best practices and proprietary experience, making sure your systems maintain peak efficiency long after launch.
+            </p>
+<div class="pt-2 flex items-center gap-2 font-code-sm text-code-sm text-slate-400">
+<span class="material-symbols-outlined text-[16px] text-[#FFE500]">check_circle</span>
+<span>Proactive telemetry &amp; ongoing system audits</span>
+</div>
+</div>
+</div>
+<div class="p-8 lg:p-10 rounded-3xl bg-[#12141A] border border-[#232732] flex items-start gap-6 shadow-xl">
+<div class="w-12 h-12 rounded-2xl bg-[#181B22] border border-[#232732] flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-slate-300 text-[26px]">school</span>
+</div>
+<div class="space-y-3">
+<span class="font-code-sm text-code-sm text-slate-400 font-bold uppercase tracking-wider">INTERNAL READINESS</span>
+<h3 class="font-headline-md text-headline-md text-white font-bold">
+              Knowledge Empowerment
+            </h3>
+<p class="font-body-md text-body-md text-slate-400 leading-relaxed">
+              Train your key employees with the correct knowledge and attitude. Interactive training sessions showcasing the impact of disciplined processes, cyber awareness, and autonomous troubleshooting.
+            </p>
+<div class="pt-2 flex items-center gap-2 font-code-sm text-code-sm text-slate-400">
+<span class="material-symbols-outlined text-[16px] text-[#FFE500]">check_circle</span>
+<span>Interactive workshops &amp; disciplined SOP training</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Enterprise Delivery Across East Africa (Contextual Infrastructure Map Card) -->
+<section class="w-full py-20 bg-[#0A0B0E]">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="rounded-3xl bg-[#12141A] border border-[#232732] p-8 lg:p-12 shadow-2xl relative overflow-hidden">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-7 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#181B22] border border-[#232732] text-slate-300 font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+<span class="w-2 h-2 rounded-full bg-[#FFE500] animate-ping"></span>
+              REGIONAL LATENCY &amp; RESILIENCE
+            </div>
+<h2 class="font-headline-lg text-headline-lg text-white tracking-tight leading-tight">
+              Enterprise Delivery Across East Africa
+            </h2>
+<p class="font-body-lg text-body-lg text-slate-400 leading-relaxed">
+              Based at Delta Corner Tower in Westlands, Nairobi, our engineering team manages critical digital operations for enterprises across Kenya and the broader East African corridor. We pair global zero-trust principles with immediate, on-site execution.
+            </p>
+<div class="grid grid-cols-2 gap-6 pt-2">
+<div class="space-y-1">
+<div class="font-headline-sm text-headline-sm text-white font-bold">Nairobi Core Hub</div>
+<p class="font-body-md text-body-md text-slate-400">Direct interconnection with local IXPs and Tier-3 data centers.</p>
+</div>
+<div class="space-y-1">
+<div class="font-headline-sm text-headline-sm text-white font-bold">24/7 Rapid Response</div>
+<p class="font-body-md text-body-md text-slate-400">Actionable remediation protocols with minimal client downtime.</p>
+</div>
+</div>
+</div>
+<!-- Interactive NOC card -->
+<div class="lg:col-span-5 relative">
+<div class="w-full h-72 rounded-2xl bg-[#0A0B0E] border border-[#232732] relative overflow-hidden flex flex-col justify-between p-5 shadow-lg" data-location="Westlands, Nairobi, Kenya">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+<span class="font-code-sm text-code-sm text-slate-300 uppercase tracking-wider">NOC TELEMETRY ACTIVE</span>
+</div>
+<span class="font-code-sm text-code-sm text-slate-500">Tier-3 Node</span>
+</div>
+<div class="space-y-3 py-2">
+<div class="flex justify-between items-center text-xs font-code-sm">
+<span class="text-slate-400">Core Link: MBA-NBO</span>
+<span class="text-emerald-400 font-semibold">ONLINE (0.8ms)</span>
+</div>
+<div class="w-full bg-[#181B22] rounded-full h-1.5 overflow-hidden">
+<div class="bg-emerald-400 h-1.5 rounded-full w-full"></div>
+</div>
+<div class="flex justify-between items-center text-xs font-code-sm">
+<span class="text-slate-400">IXP Peering Fabric</span>
+<span class="text-emerald-400 font-semibold">99.999% SLA</span>
+</div>
+<div class="w-full bg-[#181B22] rounded-full h-1.5 overflow-hidden">
+<div class="bg-[#FFE500] h-1.5 rounded-full w-[98%]"></div>
+</div>
+</div>
+<div class="p-3 rounded-xl bg-[#12141A] border border-[#232732] backdrop-blur-md w-full flex items-center justify-between">
+<div>
+<div class="font-label-md text-label-md text-white font-bold">Delta Corner Tower</div>
+<div class="font-code-sm text-code-sm text-slate-400">Westlands, Nairobi, Kenya</div>
+</div>
+<span class="px-2.5 py-1 rounded bg-emerald-400/10 border border-emerald-400/30 text-emerald-300 font-label-sm text-label-sm font-semibold">OPERATIONAL</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Why Work With Bushido? -->
+<section class="w-full py-24 bg-[#0E1015] border-y border-[#232732]">
+<div class="max-w-7xl mx-auto px-6 lg:px-12 space-y-16">
+<div class="text-center space-y-4 max-w-2xl mx-auto">
+<div class="inline-flex items-center gap-2 font-code-sm text-code-sm text-slate-400 uppercase tracking-wider font-semibold">
+<span class="text-[#FFE500]">//</span><span>03 · ADVANTAGE</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-white tracking-tight">
+          Why Work With Bushido?
+        </h2>
+<p class="font-body-lg text-body-lg text-slate-400">
+          A business-oriented approach engineered to understand your specific technology constraints and unlock clear ROI.
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1 -->
+<div class="p-8 rounded-2xl bg-[#12141A] border border-[#232732] flex flex-col justify-between shadow-md space-y-6">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-[#181B22] border border-[#232732] flex items-center justify-center">
+<span class="material-symbols-outlined text-slate-200 text-[26px]">diamond</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white font-bold">
+              Unique Offering
+            </h3>
+<p class="font-body-md text-body-md text-slate-400 leading-relaxed">
+              Bushido Tech is a one of a kind business in the tech space offering a wide array of tech solutions designed directly to satisfy your business objectives without vendor lock-in.
+            </p>
+</div>
+<div class="pt-4 font-code-sm text-code-sm text-slate-400 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-[#FFE500]"></span>
+            Tailored digital kits
+          </div>
+</div>
+<!-- Card 2 -->
+<div class="p-8 rounded-2xl bg-[#12141A] border border-[#232732] flex flex-col justify-between shadow-md space-y-6">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-[#181B22] border border-[#232732] flex items-center justify-center">
+<span class="material-symbols-outlined text-slate-200 text-[26px]">payments</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white font-bold">
+              Easy &amp; Cost Effective
+            </h3>
+<p class="font-body-md text-body-md text-slate-400 leading-relaxed">
+              We provide modular and end-to-end solutions, combined with our simple fixed pricing making it easier to manage your budget and forecast your IT expenditures accurately.
+            </p>
+</div>
+<div class="pt-4 font-code-sm text-code-sm text-slate-400 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-[#FFE500]"></span>
+            Predictable budgeting
+          </div>
+</div>
+<!-- Card 3 -->
+<div class="p-8 rounded-2xl bg-[#12141A] border border-[#232732] flex flex-col justify-between shadow-md space-y-6">
+<div class="space-y-4">
+<div class="w-12 h-12 rounded-xl bg-[#181B22] border border-[#232732] flex items-center justify-center">
+<span class="material-symbols-outlined text-slate-200 text-[26px]">trending_up</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-white font-bold">
+              Reliable &amp; Result Oriented
+            </h3>
+<p class="font-body-md text-body-md text-slate-400 leading-relaxed">
+              Bushido Tech has already helped implement solutions to save millions of shillings for businesses. We strive to provide confidence to our clients by returning tangible, measurable value.
+            </p>
+</div>
+<div class="pt-4 font-code-sm text-code-sm text-slate-400 flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-[#FFE500]"></span>
+            Audited financial returns
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Final Enterprise Consultation Call to Action -->
+<section class="w-full py-20 bg-[#0A0B0E] relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="relative rounded-3xl bg-[#12141A] border border-[#232732] p-10 lg:p-16 shadow-2xl overflow-hidden">
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<div class="lg:col-span-8 space-y-6">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#181B22] border border-[#232732] text-slate-300 font-label-sm text-label-sm uppercase tracking-wider font-semibold">
+              EXECUTIVE BRIEFING
+            </div>
+<h2 class="font-display-hero-mobile lg:font-display-hero text-display-hero-mobile lg:text-display-hero text-white font-bold tracking-tight">
+              Ready to optimize your IT infrastructure?
+            </h2>
+<p class="font-body-lg text-body-lg text-slate-400 max-w-2xl leading-relaxed">
+              Connect directly with our senior technology architects in Nairobi for a confidential assessment. We will audit critical gaps, eliminate bottlenecks, and outline a fixed-cost implementation strategy.
+            </p>
+<div class="flex flex-wrap items-center gap-6 pt-2 font-code-sm text-code-sm text-slate-400">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#FFE500] text-[18px]">pin_drop</span>
+                Delta Corner Tower, Westlands, Nairobi
+              </span>
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[#FFE500] text-[18px]">verified</span>
+                Confidential NDA Standard
+              </span>
+</div>
+</div>
+<div class="lg:col-span-4 flex flex-col items-start lg:items-end justify-center">
+<a class="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-[#FFE500] text-black font-label-md text-label-md font-bold tracking-tight shadow-[0_4px_30px_rgba(255,229,0,0.25)] hover:bg-[#E6CE00] transition-all hover:scale-[1.02]" data-path="schedule-consultation" href="#">
+<span>Request Enterprise Consultation</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</a>
+<span class="font-label-sm text-label-sm text-slate-500 mt-3 text-right">Direct advisory · No obligation audit</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-[#07080A] border-t border-[#1E222B] text-slate-400"><div class="max-w-7xl mx-auto px-6 lg:px-12 pt-space-xl pb-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-lg mb-space-xl"><div class="lg:col-span-2 space-y-4"><div class="flex items-center gap-2"><span class="font-headline-sm text-headline-sm font-bold tracking-tight text-white">BUSHIDO</span><span class="px-1.5 py-0.5 rounded bg-[#181B22] border border-[#232732] text-slate-300 font-label-sm text-label-sm uppercase tracking-wider">TECHNOLOGY</span></div><p class="font-body-md text-body-md text-slate-400 max-w-sm">Enterprise IT infrastructure, cyber defense, and mission-critical cloud digital solutions. Engineered for corporate resilience across East Africa.</p><div class="flex items-center gap-2 font-code-sm text-code-sm text-slate-500"><span class="material-symbols-outlined text-slate-400 text-[18px]">location_on</span><span>Delta Corner Tower, Westlands, Nairobi, Kenya</span></div></div><div><h4 class="font-label-md text-label-md font-semibold text-white uppercase tracking-wider mb-4">Enterprise Solutions</h4><ul class="space-y-3 font-body-md text-body-md"><li><a class="hover:text-white transition-colors" data-path="services" href="#">Cloud Architecture</a></li><li><a class="hover:text-white transition-colors" data-path="services" href="#">Cyber Defense &amp; SOC</a></li><li><a class="hover:text-white transition-colors" data-path="infrastructure" href="#">High-Availability Compute</a></li><li><a class="hover:text-white transition-colors" data-path="services" href="#">Unified Data Engineering</a></li></ul></div><div><h4 class="font-label-md text-label-md font-semibold text-white uppercase tracking-wider mb-4">The Bushido Code</h4><ul class="space-y-3 font-body-md text-body-md"><li><a class="hover:text-white transition-colors flex items-center gap-2" data-path="the-bushido-code" href="#"><span class="text-[#FFE500] font-code-sm text-code-sm">義</span><span>Gi · Absolute Integrity</span></a></li><li><a class="hover:text-white transition-colors flex items-center gap-2" data-path="the-bushido-code" href="#"><span class="text-[#FFE500] font-code-sm text-code-sm">誠</span><span>Makoto · Complete Honesty</span></a></li><li><a class="hover:text-white transition-colors flex items-center gap-2" data-path="the-bushido-code" href="#"><span class="text-[#FFE500] font-code-sm text-code-sm">忠</span><span>Chu · Unwavering Loyalty</span></a></li><li><a class="hover:text-white transition-colors flex items-center gap-2" data-path="the-bushido-code" href="#"><span class="text-[#FFE500] font-code-sm text-code-sm">勇</span><span>Yu · Calculated Valor</span></a></li></ul></div><div><h4 class="font-label-md text-label-md font-semibold text-white uppercase tracking-wider mb-4">Connect &amp; Legal</h4><ul class="space-y-3 font-body-md text-body-md"><li><a class="hover:text-white transition-colors flex items-center gap-2" href="#"><span class="material-symbols-outlined text-[18px]">link</span><span>LinkedIn / Bushido Tech</span></a></li><li><a class="hover:text-white transition-colors flex items-center gap-2" href="#"><span class="material-symbols-outlined text-[18px]">share</span><span>Facebook / Bushido East Africa</span></a></li><li><a class="hover:text-white transition-colors" data-path="schedule-consultation" href="#">Request Executive Briefing</a></li><li><a class="hover:text-white transition-colors" href="#">NOC Status Console</a></li></ul></div></div><div class="pt-8 border-t border-[#1E222B] flex flex-col md:flex-row items-center justify-between gap-4 font-label-sm text-label-sm text-slate-500"><p>© 2025 Bushido Technology Africa Ltd. All rights reserved. Nairobi, Kenya.</p><div class="flex items-center gap-6"><a class="hover:text-slate-300 transition-colors" href="#">Privacy Framework</a><a class="hover:text-slate-300 transition-colors" href="#">Terms of Service</a><a class="hover:text-slate-300 transition-colors" href="#">Security Protocol</a></div></div></div></footer></body></html>
